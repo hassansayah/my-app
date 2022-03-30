@@ -1,0 +1,18 @@
+.active {
+    color : #1079C0;
+       position: relative;
+
+}
+.active:after {
+    position: absolute;
+    content: '';
+    border-bottom:  solid #1079C0;
+    border-bottom-width: 3px;
+    width: 100%;
+    transform: translateX(-50%);
+    bottom: -21px;
+    left: 50%;
+  }  
+  a:active {
+    color: #1079C0;
+  }
