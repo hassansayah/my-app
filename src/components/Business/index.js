@@ -1,7 +1,6 @@
 import { makeStyles } from "@mui/styles";
-import { Paper, Box, Typography, Grid, Button } from "@mui/material";
+import {  Box, Typography, Grid, Button } from "@mui/material";
 import officeImage from "../../images/office.png";
-import TextField from "@mui/material/TextField";
 
 const useStyles = makeStyles({
   container: {
@@ -39,14 +38,15 @@ const useStyles = makeStyles({
     border: 'none',
     outlineWidth: 0, 
     padding: '.7rem .5rem',
-     width: "19rem",
+     width: "90%",
      marginBottom: '1rem'
   },
   subscribeBtn: {
     backgroundColor: "#111111",
-    width: "20rem",
+    width: "95%",
     color: "#FFFFFF",
-    padding: ".4rem",
+    padding: ".4rem .5rem",
+    borderRadius: 0,
     "&:hover": {
       backgroundColor: "#130F0F",
     },

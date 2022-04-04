@@ -18,11 +18,13 @@ const useStyles = makeStyles({
     marginTop: "3rem",
     position: "absolute",
     bottom: "-1.5rem",
-    left: "-8.2rem",
+    right: "9%",
+    objectFit: "cover"
   },
   manImage: {
     width: "100%",
     height: "100%",
+    objectFit: "cover",
   },
   serviceContainer: {
     backgroundColor: "#2166B1",
